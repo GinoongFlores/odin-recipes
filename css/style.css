@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+*,
+::after,
+::before {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.main {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+
+	min-height: 100vh;
+	margin: 0 auto;
+	width: 600px;
+}
+
+.text-center {
+	background: skyblue;
+	width: 300px;
+	border-radius: 8px;
+}
+
+.lists ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 16px;
+}
+
+.lists ul,
+.lists-recipes ul {
+	list-style: none;
+}
+
+li a {
+	color: black;
+	text-decoration: none;
+}
+
+li {
+	line-height: 2rem;
+}
+
+/* li a:hover {
+	color: royalblue;
+} */
+
+li a:link,
+li a:visited {
+	color: #bc6c25;
+}
+
+li a:hover,
+li a:active {
+	color: royalblue;
+}
+
+/* images */
+img {
+	width: 100%;
+	border-radius: 8px;
+}
+
+/* recipe lists */
+
+.lists-recipes ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+}
